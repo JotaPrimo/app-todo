@@ -24,9 +24,7 @@ export class TodoInputAddItensComponent implements OnInit {
       this.addItemTaskList = this.addItemTaskList.trim();
       this.emmitItemTaskList.emit(this.addItemTaskList);
       this.addItemTaskList = "";
-    } else {
-      window.alert('Ô burro, adicione um texto');
-    }
+    } 
   }
 
 }
